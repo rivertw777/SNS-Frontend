@@ -6,7 +6,7 @@ WORKDIR /app
 
 # install app dependencies
 COPY package*.json ./
-RUN npm install 
+RUN yarn add react
 
 # add app
 COPY . .
